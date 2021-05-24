@@ -1,8 +1,0 @@
-MODULES_MANAGER_V3
-test.__init__|C:\Workspace\Workspaces_Python\Python06\test\__init__.py
-test.hello|C:\Workspace\Workspaces_Python\Python06\test\hello.py
-test.pymongo01_find|C:\Workspace\Workspaces_Python\Python06\test\pymongo01_find.py
-test.pymongo02_insert|C:\Workspace\Workspaces_Python\Python06\test\pymongo02_insert.py
-test.pymongo03_update|C:\Workspace\Workspaces_Python\Python06\test\pymongo03_update.py
-test.pymongo04_delete|C:\Workspace\Workspaces_Python\Python06\test\pymongo04_delete.py
-test.pymongo05_aggre|C:\Workspace\Workspaces_Python\Python06\test\pymongo05_aggre.py

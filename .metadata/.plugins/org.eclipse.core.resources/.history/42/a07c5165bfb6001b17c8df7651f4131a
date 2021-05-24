@@ -1,0 +1,11 @@
+# -*- coding:utf-8 -*-
+
+from pymongo import MongoClient
+
+client = MongoClient('mongodb://localhost:27017/')
+db = client['test']
+score = db['score']
+
+
+# 김태리의 final의 math를 100으로 변경하자
+

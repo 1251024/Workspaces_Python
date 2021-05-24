@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//test/hello.py=utf-8
+encoding//test/pymongo01_find.py=utf-8
+encoding//test/pymongo02_update.py=utf-8

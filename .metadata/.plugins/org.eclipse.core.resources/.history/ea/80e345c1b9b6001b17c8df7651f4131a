@@ -1,0 +1,23 @@
+# -*- coding:utf-8 -*-
+
+from pymongo import MongoClient, cursor
+import pprint
+
+client = MongoClient('localhost', 27017)
+db = client.test
+score = db.score
+
+cursor = score.find()
+# print(cursor)
+# cursor 객체로 나옴
+# find()는 cursor 객체를 리턴한다
+
+for doc in cursor:
+    pprint.pprint(doc)
+# pretty라는 함수가 있어서 pprint 하면 예쁘게 나옴
+
+print('-----------')
+
+# 조건 걸어서 가져오기
+lee = score.find({'name': '이순신'})
+print(lee)
